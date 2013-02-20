@@ -1,0 +1,30 @@
+{
+	"name": "bistro/session",
+	"description": "A session abstraction library",
+	"type": "library",
+	"keywords": ["bistro", "session"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dave Widmer",
+			"email": "dave@davewidmer.net",
+			"homepage": "http://www.davewidmer.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"source": "https://github.com/Bistro/session",
+		"issues": "https://github.com/Bistro/session/issues"
+	},
+
+	"require": {
+		"php": ">=5.3",
+		"bistro/common": "*"
+	},
+
+	"autoload": {
+		"psr-0": {
+			"Bistro\\Session": "lib"
+		}
+	}
+}
